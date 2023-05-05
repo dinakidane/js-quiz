@@ -10,19 +10,19 @@ body {
 }
 
 .game {
-    background: rgb(159, 219, 228);
+    background: rgb(196, 159, 228);
     width: 90%;
     max-width: 600px;
     margin: 100px auto 0;
-    border-radius: 10px;
     padding: 30px;
 }
 
 .quiz h1 {
+    font-family: 'Arvo', sans-serif;
     font-size: 25px;
-    color: #001e4d;
+    color: #43048a;
     font-weight: 600;
-    border-bottom: 1px solid #333;
+    border-bottom: 1px solid #43048a;
     padding-bottom: 30px;
 }
 
@@ -32,26 +32,25 @@ body {
 
 .quiz h2 {
     font-size: 18px;
-    color: #001e4d;
+    color: #43048a;
     font-weight: 600;
 }
 
 .btn {
     background: #fff;
-    color: #001e4d;
+    color: #43048a;
     font-weight: 500;
     width: 100%;
-    border: 1px solid #222;
+    border: 1px solid #43048a;
     padding: 10px;
     margin: 10px 0;
     text-align: left;
-    border-radius: 4px;
     cursor: pointer;
     transition: 0.3s;
 }
 
 .btn:hover:not([disabled]) {
-    background: #222;
+    background: #43048a;
     color: #fff;
 
 }
@@ -60,8 +59,8 @@ body {
     cursor: no-drop;
 }
 
-#next-btn {
-    background: #001e4d;
+#next-page-btn {
+    background: #43048a;
     color: #fff;
     font-weight: 500;
     width: 150px;
@@ -74,9 +73,9 @@ body {
 }
 
 .correct {
-    background: #9aeabc;
+    background: #05b50e;
 }
 
 .incorrect {
-    background: #ff9393;
+    background: #ce1111;
 }
