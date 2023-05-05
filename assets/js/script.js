@@ -1,4 +1,7 @@
 
+/**
+ * Questions and answers for the quiz
+ */
 const questions = [
     {
         question: "Who is the current vice president of the United States?",
@@ -106,12 +109,20 @@ const nextButton = document.getElementById("next-page-btn");
 let currentQuestionIndex = 0;
 let score = 0;
 
-function startQuiz() {
+/**
+ * The page that gets displayed first
+ */
+
+function beginQuiz() {
     currentQuestionIndex = 0;
     score = 0;
     nextButton.innerHTML = "Next";
     showQuestion();
 }
+
+/**
+ * Displays the questions
+ */
 
 function showQuestion() {
     resetCondition();
@@ -131,6 +142,9 @@ function showQuestion() {
     });
 }
 
+/**
+ * Removing previous answer buttons
+ */
 
 function resetCondition() {
     nextButton.style.display = "none";
@@ -138,6 +152,10 @@ function resetCondition() {
         answerButtons.removeChild(answerButtons.firstChild);
     }
 }
+
+/**
+ * Focuses on which answer has been selected and acts accordingly, depending on whether it is true or false
+ */
 
 function userAnswer(e) {
     const selectedBtn = e.target;
@@ -158,6 +176,10 @@ function userAnswer(e) {
     nextButton.style.display = "block";
 }
 
+/**
+ * show the score at the end with a message
+ */
+
 function revealScore() {
     resetCondition();
     if (score => 7) {
@@ -170,6 +192,10 @@ function revealScore() {
     nextButton.innerHTML = "Play Again";
     nextButton.style.display = "block";
 }
+
+/**
+ * score points are added when next button is clicked
+ */
 
 function handleNextButton() {
     currentQuestionIndex++;
@@ -184,8 +210,8 @@ nextButton.addEventListener("click", () => {
     if (currentQuestionIndex < questions.length) {
         handleNextButton();
     } else {
-        startQuiz();
+        beginQuiz();
     }
 });
 
-startQuiz();
+beginQuiz();
