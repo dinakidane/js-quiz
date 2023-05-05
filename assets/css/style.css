@@ -1,16 +1,16 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Poppings', sans-serif;
+    font-family: 'Arvo', sans-serif;
     box-sizing: border-box;
 }
 
 body {
-    background: #001e4d;
+    background: #fff;
 }
 
-.app {
-    background: #fff;
+.game {
+    background: rgb(159, 219, 228);
     width: 90%;
     max-width: 600px;
     margin: 100px auto 0;
@@ -18,7 +18,7 @@ body {
     padding: 30px;
 }
 
-.app h1 {
+.quiz h1 {
     font-size: 25px;
     color: #001e4d;
     font-weight: 600;

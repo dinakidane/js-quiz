@@ -1,40 +1,102 @@
+
 const questions = [
     {
-        question: "Which is the largest animal in the world?",
+        question: "Who is the current vice president of the United States?",
         answers: [
-            { text: "Shark", correct: false },
-            { text: "Blue Whale", correct: true },
-            { text: "Elephant", correct: false },
-            { text: "Giraffe", correct: false },
+            { text: "Joe Biden", correct: false },
+            { text: "Hillary Clinton", correct: false },
+            { text: "Kamala Harris", correct: true },
+            { text: "Mike Pence", correct: false },
         ]
     },
     {
-        question: "Which is the smallest country in the world?",
+        question: "What is the largest organ in the body?",
         answers: [
-            { text: "Vatican City", correct: true },
-            { text: "Bhutan", correct: false },
-            { text: "Nepal", correct: false },
-            { text: "Sri Lanka", correct: false },
+            { text: "Heart", correct: false },
+            { text: "Skin", correct: true },
+            { text: "Liver", correct: false },
+            { text: "Lung", correct: false },
         ]
     },
     {
-        question: "Which is the largest desert in the world?",
+        question: "Which country has the highest life expectancy?",
         answers: [
-            { text: "Kalahari", correct: false },
-            { text: "Gobi", correct: false },
-            { text: "Sahara", correct: false },
-            { text: "Antartica", correct: true },
+            { text: "South Korea", correct: false },
+            { text: "China", correct: true },
+            { text: "Switzerland", correct: false },
+            { text: "Japan", correct: false },
         ]
     },
     {
-        question: "Which is the smallest continent in the world?",
+        question: "What is the capital of Finland?",
         answers: [
-            { text: "Asia", correct: false },
-            { text: "Australasia", correct: true },
-            { text: "Arctic", correct: false },
-            { text: "Africa", correct: false },
+            { text: "Helsinki", correct: true },
+            { text: "Luxemburg", correct: false },
+            { text: "Oslo", correct: false },
+            { text: "Stockholm", correct: false },
+        ]
+    },
+    {
+
+        question: "Which country has won the most World Cups?",
+        answers: [
+            { text: "Argentina", correct: false },
+            { text: "Brazil", correct: true },
+            { text: "France", correct: false },
+            { text: "Italy", correct: false },
+        ]
+    },
+    {
+
+        question: "Where is the strongest human muscle located?",
+        answers: [
+            { text: "Forearms", correct: false },
+            { text: "Calves", correct: false },
+            { text: "Triceps", correct: false },
+            { text: "Jaw", correct: true },
+        ]
+    },
+    {
+
+        question: "How many colors are used in the South African flag?",
+        answers: [
+            { text: "Four", correct: false },
+            { text: "Eight", correct: false },
+            { text: "Six", correct: true },
+            { text: "Seven", correct: false },
+        ]
+    },
+    {
+
+        question: "Where did sushi originate?",
+        answers: [
+            { text: "Japan", correct: true },
+            { text: "China", correct: false },
+            { text: "South Korea", correct: false },
+            { text: "Thailand", correct: false },
+        ]
+    },
+    {
+
+        question: "Where is the largest Disney park in the world?",
+        answers: [
+            { text: "London", correct: false },
+            { text: "Orlando", correct: true },
+            { text: "Paris", correct: false },
+            { text: "Hong Kong", correct: false },
+        ]
+    },
+    {
+
+        question: "What is the national sport of Japan?",
+        answers: [
+            { text: "Football", correct: false },
+            { text: "Swimmming", correct: false },
+            { text: "Sumo Wrestling", correct: true },
+            { text: "Baseball", correct: false },
         ]
     }
+
 
 ];
 
@@ -99,7 +161,13 @@ function selectAnswer(e) {
 
 function showScore() {
     resetState();
-    questionElement.innerHTML = `You scored ${score} out of ${questions.length}!`;
+    if (score => 7) {
+        questionElement.innerHTML = `Well done! You scored a ${score} out of ${questions.length}!`;
+    }
+    if (score < 6) {
+        questionElement.innerHTML = `You scored a ${score} out of ${questions.length}! Try again!`;
+    }
+
     nextButton.innerHTML = "Play Again";
     nextButton.style.display = "block";
 }
