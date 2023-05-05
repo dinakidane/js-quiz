@@ -6,24 +6,30 @@
 }
 
 body {
-    background: #fff;
+    background: rgb(255, 255, 255);
 }
 
 .game {
+    margin: 100px auto 0;
+    padding: 30px;
     background: rgb(196, 159, 228);
     width: 90%;
     max-width: 600px;
-    margin: 100px auto 0;
-    padding: 30px;
+    border-style: solid;
+    border-width: 6px;
 }
 
 .quiz h1 {
     font-family: 'Arvo', sans-serif;
     font-size: 25px;
-    color: #43048a;
+    color: #000000;
     font-weight: 600;
     border-bottom: 1px solid #43048a;
     padding-bottom: 30px;
+}
+
+.quiz h2 {
+    margin-bottom: 13px;
 }
 
 .quiz {
@@ -32,7 +38,7 @@ body {
 
 .quiz h2 {
     font-size: 18px;
-    color: #43048a;
+    color: #000000;
     font-weight: 600;
 }
 
@@ -40,7 +46,7 @@ body {
     background: #fff;
     color: #43048a;
     font-weight: 500;
-    width: 100%;
+    width: 50%;
     border: 1px solid #43048a;
     padding: 10px;
     margin: 10px 0;
@@ -73,9 +79,9 @@ body {
 }
 
 .correct {
-    background: #05b50e;
+    background: #7fd583;
 }
 
 .incorrect {
-    background: #ce1111;
+    background: #e96a6a;
 }

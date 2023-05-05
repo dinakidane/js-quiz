@@ -97,7 +97,6 @@ const questions = [
         ]
     }
 
-
 ];
 
 const questionElement = document.getElementById("question");
@@ -115,10 +114,10 @@ function startQuiz() {
 }
 
 function showQuestion() {
-    resetState();
+    resetCondition();
     let currentQuestion = questions[currentQuestionIndex];
-    let questionNo = currentQuestionIndex + 1;
-    questionElement.innerHTML = questionNo + "." + currentQuestion.question;
+    let questionNumber = currentQuestionIndex + 1;
+    questionElement.innerHTML = questionNumber + "." + currentQuestion.question;
 
     currentQuestion.answers.forEach(answer => {
         const button = document.createElement("button");
@@ -128,19 +127,19 @@ function showQuestion() {
         if (answer.correct) {
             button.dataset.correct = answer.correct;
         }
-        button.addEventListener("click", selectAnswer);
+        button.addEventListener("click", userAnswer);
     });
 }
 
 
-function resetState() {
+function resetCondition() {
     nextButton.style.display = "none";
     while (answerButtons.firstChild) {
         answerButtons.removeChild(answerButtons.firstChild);
     }
 }
 
-function selectAnswer(e) {
+function userAnswer(e) {
     const selectedBtn = e.target;
     const isCorrect = selectedBtn.dataset.correct === "true";
     if (isCorrect) {
@@ -159,8 +158,8 @@ function selectAnswer(e) {
     nextButton.style.display = "block";
 }
 
-function showScore() {
-    resetState();
+function revealScore() {
+    resetCondition();
     if (score => 7) {
         questionElement.innerHTML = `Well done! You scored a ${score} out of ${questions.length}!`;
     }
@@ -177,7 +176,7 @@ function handleNextButton() {
     if (currentQuestionIndex < questions.length) {
         showQuestion();
     } else {
-        showScore();
+        revealScore();
     }
 }
 
