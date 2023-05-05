@@ -65,6 +65,18 @@ body {
     cursor: no-drop;
 }
 
+#restart-btn {
+    background: #43048a;
+    color: #fff;
+    font-weight: 500;
+    width: 150px;
+    border: 0;
+    padding: 10px;
+    margin: 20px auto 0;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
 #next-page-btn {
     background: #43048a;
     color: #fff;
@@ -79,9 +91,9 @@ body {
 }
 
 .correct {
-    background: #7fd583;
+    background: #94e898;
 }
 
 .incorrect {
-    background: #e96a6a;
+    background: #f18383;
 }

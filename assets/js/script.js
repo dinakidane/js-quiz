@@ -103,7 +103,8 @@ const questions = [
 ];
 
 const questionElement = document.getElementById("question");
-const answerButtons = document.getElementById("answer-buttons");
+const optionButtons = document.getElementById("option-buttons");
+const resetButton = document.getElementById("reset-btn");
 const nextButton = document.getElementById("next-page-btn");
 
 let currentQuestionIndex = 0;
@@ -134,7 +135,7 @@ function showQuestion() {
         const button = document.createElement("button");
         button.innerHTML = answer.text;
         button.classList.add("btn");
-        answerButtons.appendChild(button);
+        optionButtons.appendChild(button);
         if (answer.correct) {
             button.dataset.correct = answer.correct;
         }
@@ -148,8 +149,8 @@ function showQuestion() {
 
 function resetCondition() {
     nextButton.style.display = "none";
-    while (answerButtons.firstChild) {
-        answerButtons.removeChild(answerButtons.firstChild);
+    while (optionButtons.firstChild) {
+        optionButtons.removeChild(optionButtons.firstChild);
     }
 }
 
@@ -166,7 +167,7 @@ function userAnswer(e) {
     } else {
         selectedBtn.classList.add("incorrect");
     }
-    Array.from(answerButtons.children).forEach(button => {
+    Array.from(optionButtons.children).forEach(button => {
         if (button.dataset.correct === "true") {
             button.classList.add("correct");
         }
@@ -192,6 +193,8 @@ function revealScore() {
     nextButton.innerHTML = "Play Again";
     nextButton.style.display = "block";
 }
+
+function;
 
 /**
  * score points are added when next button is clicked
