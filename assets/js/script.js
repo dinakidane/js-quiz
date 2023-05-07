@@ -102,9 +102,18 @@ const questions = [
 
 ];
 
+const startButton = document.getElementById("start-btn");
 const questionElement = document.getElementById("question");
 const optionButtons = document.getElementById("option-buttons");
 const nextButton = document.getElementById("next-page-btn");
+
+
+
+
+startButton.addEventListener("click", () => {
+    document.getElementById("homepage").style.display = "none";
+    beginQuiz();
+});
 
 let currentQuestionIndex = 0;
 let score = 0;
@@ -114,11 +123,13 @@ let score = 0;
  */
 
 function beginQuiz() {
+    document.getElementsByClassName("game").style.display = "block";
     currentQuestionIndex = 0;
     score = 0;
     nextButton.innerHTML = "Next";
     showQuestion();
 }
+
 
 /**
  * Displays the questions
@@ -187,7 +198,7 @@ function revealScore() {
     if (score => 7) {
         questionElement.innerHTML = `Well done! You scored a ${score} out of ${questions.length}!`;
     }
-    if (score < 6) {
+    if (score <= 6) {
         questionElement.innerHTML = `You scored a ${score} out of ${questions.length}! Try again!`;
     }
 

@@ -9,6 +9,33 @@ body {
     background: rgb(255, 255, 255);
 }
 
+#homepage {
+    margin: 100px auto 0;
+    padding: 30px;
+    background: rgb(196, 159, 228);
+    width: 90%;
+    max-width: 600px;
+    border-style: solid;
+    border-width: 6px;
+}
+
+#homepage h2 {
+    margin-top: 25px;
+}
+
+#start-btn {
+    background: #43048a;
+    color: #fff;
+    text-align: center;
+    font-weight: 500;
+    width: 150px;
+    border: 0;
+    padding: 10px;
+    margin: 30px auto 0;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
 .game {
     margin: 100px auto 0;
     padding: 30px;
@@ -17,6 +44,7 @@ body {
     max-width: 600px;
     border-style: solid;
     border-width: 6px;
+    visibility: hidden;
 }
 
 .quiz h1 {
