@@ -104,7 +104,6 @@ const questions = [
 
 const questionElement = document.getElementById("question");
 const optionButtons = document.getElementById("option-buttons");
-const resetButton = document.getElementById("reset-btn");
 const nextButton = document.getElementById("next-page-btn");
 
 let currentQuestionIndex = 0;
@@ -143,8 +142,10 @@ function showQuestion() {
     });
 }
 
+
+
 /**
- * Removing previous answer buttons
+ * Removing previous option buttons
  */
 
 function resetCondition() {
@@ -194,7 +195,6 @@ function revealScore() {
     nextButton.style.display = "block";
 }
 
-function;
 
 /**
  * score points are added when next button is clicked
