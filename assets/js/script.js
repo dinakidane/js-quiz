@@ -103,11 +103,14 @@ const questions = [
 ];
 
 const startButton = document.getElementById("start-btn");
+const restartButton = document.getElementById("restart-btn")
 const questionElement = document.getElementById("question");
 const optionButtons = document.getElementById("option-buttons");
 const nextButton = document.getElementById("next-page-btn");
 
-
+function homeStart() {
+    document.getElementsByClassName("game").style.display = "none";
+}
 
 
 startButton.addEventListener("click", () => {
@@ -123,7 +126,6 @@ let score = 0;
  */
 
 function beginQuiz() {
-    document.getElementsByClassName("game").style.display = "block";
     currentQuestionIndex = 0;
     score = 0;
     nextButton.innerHTML = "Next";
@@ -151,9 +153,12 @@ function showQuestion() {
         }
         button.addEventListener("click", userAnswer);
     });
+
 }
 
-
+restartButton.addEventListener("click", () =>) {
+    document.getElementById("homepage");
+}
 
 /**
  * Removing previous option buttons
