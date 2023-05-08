@@ -42,3 +42,21 @@ Users who like to challenge themselves on broad themes are the target audience f
 ### Features left to implement
 
 - Potentially, including a timer element on every question could have made answering the question within the allotted time more challenging and perhaps even more enjoyable for the user.
+
+## Testing
+
+### Validator Testing
+
+- HTML
+  - 
+  
+- CSS
+  - 
+  
+- Javascript
+  - No errors were found when passing through the official Jshint validator
+  - The metrics:
+    - There are 12 functions in this file.
+    - Function with the largest signature take 1 arguments, while the median is 0.
+    - Largest function has 8 statements in it, while the median is 4.
+    - The most complex function has a cyclomatic complexity value of 3 while the median is 2
