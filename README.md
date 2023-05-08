@@ -12,12 +12,20 @@ Users who like to challenge themselves on broad themes are the target audience f
 
 - __The Heading__
   
-    - The 'General Knowledge Quiz' heading has been prominently displayed at the top of the box, making it easily visible to users. The heading stays bold and consistent on every page, allowing it to grab the user's attention.
+    - The 'General Knowledge Quiz' heading has been prominently displayed at the top of the box, making it easily visible to users. 
+    - The heading stays bold and consistent on every page, allowing it to grab the user's attention.
   
     - ![Heading](./assets/images/heading.png)
 
 - __The Instructions__
 
-    - The purpose for this section allows every user to understand how to n!avigate through the game which allows the process of the game to be much easier, quicker and more enjoyable for the user to play
+    - The purpose for this section allows every user to understand how to navigate through the game which allows the process of the game to be much easier, quicker and more enjoyable for the user to play
 
     - ![Instructions](./assets/images/instructions.png)
+
+- __Game Area__
+
+    - This section will contain the question below the main heading. 
+    - The section below the questions will contain 4 different answers, and the user is able to click an option that they think is the correct answer.
+
+    - ![Game Area](./assets/images/game.png)
