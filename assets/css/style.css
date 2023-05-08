@@ -36,7 +36,7 @@ body {
     cursor: pointer;
 }
 
-.game {
+#game {
     margin: 100px auto 0;
     padding: 30px;
     background: rgb(196, 159, 228);
@@ -44,6 +44,10 @@ body {
     max-width: 600px;
     border-style: solid;
     border-width: 6px;
+}
+
+.hide {
+    display: none;
 }
 
 .quiz h1 {

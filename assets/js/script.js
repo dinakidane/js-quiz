@@ -103,20 +103,23 @@ const questions = [
 ];
 
 const startButton = document.getElementById("start-btn");
-const restartButton = document.getElementById("restart-btn")
 const questionElement = document.getElementById("question");
 const optionButtons = document.getElementById("option-buttons");
 const nextButton = document.getElementById("next-page-btn");
+const gameDiv = document.getElementById("game");
+const homeDiv = document.getElementById("homepage");
 
-function homeStart() {
-    document.getElementsByClassName("game").style.display = "none";
-}
-
+/**
+ * starting the Quiz
+ */
 
 startButton.addEventListener("click", () => {
-    document.getElementById("homepage").style.display = "none";
+    console.log("Quiz begins");
+    gameDiv.classList.remove("hide");
+    homeDiv.classList.add("hide");
     beginQuiz();
 });
+
 
 let currentQuestionIndex = 0;
 let score = 0;
@@ -131,7 +134,6 @@ function beginQuiz() {
     nextButton.innerHTML = "Next";
     showQuestion();
 }
-
 
 /**
  * Displays the questions
@@ -154,10 +156,6 @@ function showQuestion() {
         button.addEventListener("click", userAnswer);
     });
 
-}
-
-restartButton.addEventListener("click", () =>) {
-    document.getElementById("homepage");
 }
 
 /**
@@ -210,7 +208,6 @@ function revealScore() {
     nextButton.innerHTML = "Play Again";
     nextButton.style.display = "block";
 }
-
 
 /**
  * score points are added when next button is clicked
