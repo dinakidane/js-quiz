@@ -226,8 +226,10 @@ nextButton.addEventListener("click", () => {
     if (currentQuestionIndex < questions.length) {
         handleNextButton();
     } else {
-        beginQuiz();
+        homeDiv.classList.remove("hide");
+        gameDiv.classList.add("hide");
     }
+
 });
 
 beginQuiz();
