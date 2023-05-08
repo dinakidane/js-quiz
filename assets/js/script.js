@@ -103,6 +103,7 @@ const questions = [
 ];
 
 const startButton = document.getElementById("start-btn");
+const restartButton = document.getElementById("restart-btn");
 const questionElement = document.getElementById("question");
 const optionButtons = document.getElementById("option-buttons");
 const nextButton = document.getElementById("next-page-btn");
@@ -209,6 +210,11 @@ function revealScore() {
     nextButton.style.display = "block";
 }
 
+restartButton.addEventListener("click", () => {
+    beginQuiz();
+});
+
+
 /**
  * score points are added when next button is clicked
  */
@@ -218,6 +224,7 @@ function handleNextButton() {
     if (currentQuestionIndex < questions.length) {
         showQuestion();
     } else {
+        restartButton.classList.add("hide");
         revealScore();
     }
 }
