@@ -18,4 +18,6 @@ Users who like to challenge themselves on broad themes are the target audience f
 
 - __The Instructions__
 
-    - The purpose for this section allows every user to understand how to 
+    - The purpose for this section allows every user to understand how to navigate through the game which allows the process of the game to be much easier, quicker and more enjoyable for the user to play
+
+    - ! [Instructions](./assets/images/instructions.png)
