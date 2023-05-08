@@ -27,5 +27,14 @@ Users who like to challenge themselves on broad themes are the target audience f
 
     - This section will contain the question below the main heading. 
     - The section below the questions will contain 4 different answers, and the user is able to click an option that they think is the correct answer.
+    - If their answer is correct, it'll come up green.
+    - If their answer is incorrect, it'll come up red and simultaneously, the correct answer will come up green.
 
     - ![Game Area](./assets/images/game.png)
+
+- __Score Area__
+
+    - This section enables the user to see how many answers they got correct out of 10, which is the number of questions that was asked.
+    - Following the score reveal, a message is also revealed to the user depending on the score that they get
+
+    - ![Score Area](./assets/images/score.png)
