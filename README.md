@@ -38,3 +38,7 @@ Users who like to challenge themselves on broad themes are the target audience f
     - Following the score reveal, a message is also revealed to the user depending on the score that they get
 
     - ![Score Area](./assets/images/score.png)
+
+### Features left to implement
+
+- Potentially, including a timer element on every question could have made answering the question within the allotted time more challenging and perhaps even more enjoyable for the user.
