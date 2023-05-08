@@ -206,10 +206,14 @@ function revealScore() {
         questionElement.innerHTML = `You scored a ${score} out of ${questions.length}! Try again!`;
     }
 
+    restartButton.classList.add("hide");
     nextButton.innerHTML = "Play Again";
     nextButton.style.display = "block";
 }
 
+/**
+ * restart button to take user back to beginQuiz()
+ */
 restartButton.addEventListener("click", () => {
     beginQuiz();
 });
@@ -224,7 +228,6 @@ function handleNextButton() {
     if (currentQuestionIndex < questions.length) {
         showQuestion();
     } else {
-        restartButton.classList.add("hide");
         revealScore();
     }
 }
@@ -235,6 +238,7 @@ nextButton.addEventListener("click", () => {
     } else {
         homeDiv.classList.remove("hide");
         gameDiv.classList.add("hide");
+        restartButton.classList.remove("hide");
     }
 
 });
