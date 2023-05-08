@@ -5,3 +5,13 @@ Users who like to challenge themselves on broad themes are the target audience f
 [View my live project here!](https://dinakidane.github.io/js-quiz/)
 
 ![Responsive Image](./assets/images/responsive.png)
+
+## Features
+
+### Existing Features
+
+- __The Heading__
+  
+    - The 'General Knowledge Quiz' heading has been prominently displayed at the top of the box, making it easily visible to users. The heading stays bold and constant on every page, allowing it to grab the user's attention.
+  
+    - ![Heading](./assets/images/heading.png)
