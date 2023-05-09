@@ -65,3 +65,15 @@ Users who like to challenge themselves on broad themes are the target audience f
     - Function with the largest signature take 1 arguments, while the median is 0.
     - Largest function has 8 statements in it, while the median is 4.
     - The most complex function has a cyclomatic complexity value of 3 while the median is 2
+
+- Browser Compatibility
+
+  - Tested on:
+    - Google Chrome on macOS 110.0.5481.177
+    - Safari on macOS X 10.11 El Capitan
+    - Microsoft Edge Version 110.0. 1587.41
+
+- Functionality Testing
+
+    - ![Testing Features](./assets/images/features-testing.png)
+
