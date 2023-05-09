@@ -47,20 +47,6 @@ Users who like to challenge themselves on broad themes are the target audience f
 
 ### Validator Testing
 
-- 
-  - The closing unordered list element was missing on line 93 in index.html
-  - The closing footer element wasn't aligned under the opening footer properly
-
-  - All errors have now been fixed - The result for index.html, menu.html and register.html:
-    - ![Html validator](./assets/images/w3c-validator.png)
-
-- [W3C Testing for CSS](https://jigsaw.w3.org/css-validator/#validate_by_input)
-  - There was an error that declared that position: left was not a valid value.
-  - All errors have now been fixed:
-    - ![CSS validator](./assets/images/w3c-css.png)
-
-### Validator Testing
-
 - [Testing for HTML](https://validator.w3.org/#validate_by_input)
   
   - No errors were detected
@@ -69,7 +55,7 @@ Users who like to challenge themselves on broad themes are the target audience f
 - [Testing for CSS](https://jigsaw.w3.org/css-validator/#validate_by_input)
 
   - No errors were detected
-  - [CSS Validator](./assets/images/css-validator.png)
+  - ![CSS Validator](./assets/images/css-validator.png)
 
 - [Testing for Javascript](https://jshint.com/)
 
