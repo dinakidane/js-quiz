@@ -110,6 +110,10 @@ const nextButton = document.getElementById("next-page-btn");
 const gameDiv = document.getElementById("game");
 const homeDiv = document.getElementById("homepage");
 
+let currentQuestionIndex = 0;
+let score = 0;
+
+
 /**
  * starting the Quiz
  */
@@ -122,8 +126,29 @@ startButton.addEventListener("click", () => {
 });
 
 
-let currentQuestionIndex = 0;
-let score = 0;
+/**
+ * restart button to take user back to beginQuiz()
+ */
+restartButton.addEventListener("click", () => {
+    beginQuiz();
+});
+
+
+/**
+ * next button to take user back to homepage
+ */
+
+nextButton.addEventListener("click", () => {
+    if (currentQuestionIndex < questions.length) {
+        handleNextButton();
+    } else {
+        homeDiv.classList.remove("hide");
+        gameDiv.classList.add("hide");
+        restartButton.classList.remove("hide");
+    }
+
+});
+
 
 /**
  * The page that gets displayed first
@@ -212,14 +237,6 @@ function revealScore() {
 }
 
 /**
- * restart button to take user back to beginQuiz()
- */
-restartButton.addEventListener("click", () => {
-    beginQuiz();
-});
-
-
-/**
  * score points are added when next button is clicked
  */
 
@@ -232,15 +249,5 @@ function handleNextButton() {
     }
 }
 
-nextButton.addEventListener("click", () => {
-    if (currentQuestionIndex < questions.length) {
-        handleNextButton();
-    } else {
-        homeDiv.classList.remove("hide");
-        gameDiv.classList.add("hide");
-        restartButton.classList.remove("hide");
-    }
-
-});
 
 beginQuiz();
