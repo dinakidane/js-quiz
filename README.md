@@ -77,3 +77,52 @@ Users who like to challenge themselves on broad themes are the target audience f
 
     - ![Testing Features](./assets/images/features-testing.png)
 
+- Bugs
+
+## Design
+
+### Colour Scheme
+
+- 
+
+### Typography
+
+- 
+
+### Wireframes
+
+- Desktop
+   
+    - ![Desktop Wireframe](./assets/images/desktop-wireframe.png)
+
+- Tablet
+    
+    - ![Tablet Wireframe](./assets/images/tablet-wireframe.png)
+
+- Smartphone
+   
+    - ![Smartphone Wireframe](./assets/images/smartphone-wireframe.png)
+
+## Technologies Used
+
+### Languages Used
+
+- HTML
+- CSS
+- Javascript
+
+### Frameworks, Libraries & Programs Used
+
+## Deployment
+
+### How the site was deployed
+
+### How the repository was cloned
+
+## Credits
+
+### Content
+
+### Code
+
+## Acknowledgements
