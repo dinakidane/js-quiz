@@ -81,9 +81,14 @@ Users who like to challenge themselves on broad themes are the target audience f
 
 ## Design
 
+
 ### Colour Scheme
 
-- 
+- The colour scheme was motivated by the intention to make sure the quiz delivers a fun and playful feel towards the user.
+- The contrasts between the light and dark purple is used to display a consistent theme throughout every page. 
+- While presenting a minimalistic and straightforward layout, the white background draws the user's attention to the Quiz box area.
+- The heading and the question are black and bold, distinguishing it from the rest of the text to indicate they are headings of the text below it.
+
 
 ### Typography
 
