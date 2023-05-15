@@ -137,9 +137,20 @@ Users who like to challenge themselves on broad themes are the target audience f
 
 ### How the repository was cloned
 
-- 
+- Go to the [repository](https://dinakidane.github.io/js-quiz/) on github
+- Click 'code' on the right part of the page
+- Click copy which is code that appears on the HTTPS section
+- Open a GitBash terminal
+- Go to the directory you wish to paste the clone link in
+- Type 'git clone' in the terminal and paste it in
+- Click enter to start the process of cloning the repository 
 
 ## Credits
+
+- [Building a Javascript game:](https://www.youtube.com/watch?v=PBcqGxrr9g8): This video was used as inspiration to build a quiz game and also present a clear and neat layout of the code, specifically in the Javascript file. 
+- [Creating a quiz app:](https://www.codingninjas.com/codestudio/library/how-to-create-a-quiz-app-using-javascript) This was used to help with the layout of the code.
+- [General Knowledge Quiz Questions:](https://www.mentimeter.com/blog/audience-energizers/55-free-trivia-and-fun-quiz-question-templates) This was used to inspire some of the general knowledge quiz questions in the game.
+
 
 ### Content
 
