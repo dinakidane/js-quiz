@@ -6,6 +6,17 @@ Users who like to challenge themselves on broad themes are the target audience f
 
 ![Responsive Image](./assets/images/responsive.png)
 
+## Contents table
+
+* [User Experience)](#user-experience) 
+* [Features](#features)
+* [Design](#design)
+* [Technologies Used](#technologies-used)
+* [Testing](#testing)
+* [Deployment](#deployment)
+* [Credits](#credits)
+* [Acknowledgements](#acknowledgements)
+
 ## User Experience
 
 ### Target Audience
@@ -60,6 +71,34 @@ Users who like to challenge themselves on broad themes are the target audience f
 
 - Potentially, including a timer element on every question could have made answering the question within the allotted time more challenging and perhaps even more enjoyable for the user.
 
+## Design
+
+### Colour Scheme
+
+* The colour scheme was motivated by the intention to make sure the quiz delivers a fun and playful feel towards the user.
+* The contrasts between the light and dark purple is used to display a consistent theme throughout every page.
+* While presenting a minimalistic and straightforward layout, the white background draws the user's attention to the Quiz box area.
+* The heading and the question are black and bold, distinguishing it from the rest of the text to indicate they are headings of the text below.
+
+### Typography
+
+* Using the Arvo font style throughout the game was intentional to ensure a modern feel was emphasised throughout the website.
+* The Arvo font also allowed a clear read for the reader, whilst maintaing a minimilist feel.
+
+### Wireframes
+
+* Desktop
+
+  * ![Desktop Wireframe](./assets/images/desktop-wireframe.png)
+
+* Tablet
+
+  * ![Tablet Wireframe](./assets/images/tablet-wireframe.png)
+
+* Smartphone
+
+  * ![Smartphone Wireframe](./assets/images/smartphone-wireframe.png)
+
 ## Testing
 
 ### Validator Testing
@@ -98,34 +137,6 @@ Users who like to challenge themselves on broad themes are the target audience f
 
     - ![Testing Features](./assets/images/features-testing.png)
 
-## Design
-
-### Colour Scheme
-
-- The colour scheme was motivated by the intention to make sure the quiz delivers a fun and playful feel towards the user.
-- The contrasts between the light and dark purple is used to display a consistent theme throughout every page. 
-- While presenting a minimalistic and straightforward layout, the white background draws the user's attention to the Quiz box area.
-- The heading and the question are black and bold, distinguishing it from the rest of the text to indicate they are headings of the text below.
-
-
-### Typography
-
-- Using the Arvo font style throughout the game was intentional to ensure a modern feel was emphasised throughout the website.
-- The Arvo font also allowed a clear read for the reader, whilst maintaing a minimilist feel. 
-
-### Wireframes
-
-- Desktop
-   
-    - ![Desktop Wireframe](./assets/images/desktop-wireframe.png)
-
-- Tablet
-    
-    - ![Tablet Wireframe](./assets/images/tablet-wireframe.png)
-
-- Smartphone
-   
-    - ![Smartphone Wireframe](./assets/images/smartphone-wireframe.png)
 
 ## Technologies Used
 
