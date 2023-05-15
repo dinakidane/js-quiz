@@ -156,5 +156,11 @@ Users who like to challenge themselves on broad themes are the target audience f
 - [Building a Javascript game:](https://www.youtube.com/watch?v=PBcqGxrr9g8): This video was used as inspiration to build a quiz game and also present a clear and neat layout of the code, specifically in the Javascript file. 
 - [Creating a quiz app:](https://www.codingninjas.com/codestudio/library/how-to-create-a-quiz-app-using-javascript) This was used to help with the layout of the code.
 - [Stack Overflow:](https://stackoverflow.com/questions/39989270/redisplay-div-after-display-none) This was used to help add in a code that would hide a specific section until a certain button was clicked.
+- [Colour code:](https://www.w3schools.com/cssref/css_colors.php) This was used to check if the correct colour code was used.
+
+### Media
+- [Google Fonts:](https://fonts.google.com/) This was used to find an appropiate font for the quiz and then it was imported from here.
 
 ## Acknowledgements
+
+- My mentor, Elaine Broche, was always giving me the best and most constructive feedback that i was able to utilise to ensure that I put all my efforts into this, so a big thank you to her! Although it was challenging at most points, I was also able to rely on Slack and tutor support to always come through for me. They were always happy to give me advice and feedback to help improvemy work. Thanks to all who made this journey easier for me.  
