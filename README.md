@@ -6,6 +6,23 @@ Users who like to challenge themselves on broad themes are the target audience f
 
 ![Responsive Image](./assets/images/responsive.png)
 
+## User Experience
+
+### Target Audience
+
+- This game is for those who want to play a challenging, but also enjoyable quiz that would test their general knowledge.
+
+### User stories
+
+- Every user is able to:
+  - They are able to understand the main aim of the game
+  - They are made aware that there are 10 questions to answer
+  - They are able to understand how to naviagte through the game as the instructions are on the first page
+  - They are able to restart the game whenever they feel like they want to 
+  - They are able to see which answer was correct as soon as they click on their chosen answer
+  - They are able to see their score at the end of the game, alongside a message that depends on the score they achieve
+  - They are able to go back to the instructions/first page by clicking 'Play again', after their score is revealed to them 
+ 
 ## Features
 
 ### Existing Features
