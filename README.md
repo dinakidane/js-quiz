@@ -147,13 +147,14 @@ Users who like to challenge themselves on broad themes are the target audience f
 
 ## Credits
 
-- [Building a Javascript game:](https://www.youtube.com/watch?v=PBcqGxrr9g8): This video was used as inspiration to build a quiz game and also present a clear and neat layout of the code, specifically in the Javascript file. 
-- [Creating a quiz app:](https://www.codingninjas.com/codestudio/library/how-to-create-a-quiz-app-using-javascript) This was used to help with the layout of the code.
-- [General Knowledge Quiz Questions:](https://www.mentimeter.com/blog/audience-energizers/55-free-trivia-and-fun-quiz-question-templates) This was used to inspire some of the general knowledge quiz questions in the game.
-
-
 ### Content
 
+- [General Knowledge Quiz Questions:](https://www.mentimeter.com/blog/audience-energizers/55-free-trivia-and-fun-quiz-question-templates) This was used to inspire some of the general knowledge quiz questions in the game.
+
 ### Code
+
+- [Building a Javascript game:](https://www.youtube.com/watch?v=PBcqGxrr9g8): This video was used as inspiration to build a quiz game and also present a clear and neat layout of the code, specifically in the Javascript file. 
+- [Creating a quiz app:](https://www.codingninjas.com/codestudio/library/how-to-create-a-quiz-app-using-javascript) This was used to help with the layout of the code.
+- [Stack Overflow:](https://stackoverflow.com/questions/39989270/redisplay-div-after-display-none) This was used to help add in a code that would hide a specific section until a certain button was clicked.
 
 ## Acknowledgements
