@@ -8,7 +8,7 @@ Users who like to challenge themselves on broad themes are the target audience f
 
 ## Contents table
 
-* [User Experience)](#user-experience) 
+* [User Experience](#user-experience) 
 * [Features](#features)
 * [Design](#design)
 * [Technologies Used](#technologies-used)
@@ -137,6 +137,9 @@ Users who like to challenge themselves on broad themes are the target audience f
 
     - ![Testing Features](./assets/images/features-testing.png)
 
+- Bugs
+  
+    - Currently no known bugs
 
 ## Technologies Used
 
