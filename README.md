@@ -79,6 +79,7 @@ Users who like to challenge themselves on broad themes are the target audience f
 * The contrasts between the light and dark purple is used to display a consistent theme throughout every page.
 * While presenting a minimalistic and straightforward layout, the white background draws the user's attention to the Quiz box area.
 * The heading and the question are black and bold, distinguishing it from the rest of the text to indicate they are headings of the text below.
+* To indicate a correct answer, the colour green comes up. To indicate an incorrect answer, the colour red comes up. These colours have been chosen as they are universally known to be colours that indicate and differentiate a right answer from a wrong answer. For those who wasn't aware, it is already proposed in the 'How to play' section. 
 
 ### Typography
 
