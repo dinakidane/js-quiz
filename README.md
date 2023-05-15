@@ -21,7 +21,7 @@ Users who like to challenge themselves on broad themes are the target audience f
   - They are able to restart the game whenever they feel like they want to 
   - They are able to see which answer was correct as soon as they click on their chosen answer
   - They are able to see their score at the end of the game, alongside a message that depends on the score they achieve
-  - They are able to go back to the instructions/first page by clicking 'Play again', after their score is revealed to them 
+  - If they want to play the quiz again, they are able to go back to the instructions/first page by clicking 'Play again', after their score is revealed to them 
  
 ## Features
 
@@ -90,14 +90,15 @@ Users who like to challenge themselves on broad themes are the target audience f
     - Safari on macOS X 10.11 El Capitan
     - Microsoft Edge Version 110.0. 1587.41
 
+- Screen Responsiveness
+
+- ![Screen Responsiveness Test](./assets/images/screen-responsiveness.png)
+
 - Functionality Testing
 
     - ![Testing Features](./assets/images/features-testing.png)
 
-- Bugs
-
 ## Design
-
 
 ### Colour Scheme
 
@@ -105,7 +106,7 @@ Users who like to challenge themselves on broad themes are the target audience f
 - The contrasts between the light and dark purple is used to display a consistent theme throughout every page. 
 - While presenting a minimalistic and straightforward layout, the white background draws the user's attention to the Quiz box area.
 - The heading and the question are black and bold, distinguishing it from the rest of the text to indicate they are headings of the text below.
-- 
+
 
 ### Typography
 
