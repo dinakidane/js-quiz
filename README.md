@@ -119,11 +119,25 @@ Users who like to challenge themselves on broad themes are the target audience f
 
 ### Frameworks, Libraries & Programs Used
 
+  - [Google Fonts](https://fonts.google.com/) was the website where the Arvo font style was found, which meant that this link was also imported onto the style.css file.
+  - [Git](https://git-scm.com/) allowed for the code to be committed and pushed to github.
+  - [Github](https://github.com/) All the code that had been pushed were stored in github.
+  - [Responsiveness](https://www.websiteplanet.com/webtools/responsive-checker/#body) was used to check the screen responsiveness in various different types of screens, ranging from desktops to mobile phones.
+  - [Balsamiq](https://balsamiq.com/) was used to make wireframes to help aid the design process.
+
 ## Deployment
 
 ### How the site was deployed
+  
+- Click on the repository
+- Click on settings and then scroll to the pages menu
+- Click 'Deploy from branch'
+- Click 'main' branch
+- This is the live link: [General Knowledge Quiz!](https://dinakidane.github.io/js-quiz/)
 
 ### How the repository was cloned
+
+- 
 
 ## Credits
 
